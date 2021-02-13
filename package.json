@@ -1,0 +1,26 @@
+{
+  "name": "fileknight",
+  "version": "0.0.1",
+  "description": "File Knight",
+  "main": "app.js",
+  "window": {
+    "icon": "./images/icon.png",
+    "width": 1000,
+    "height": 730
+  },
+  "chromium-args": "--enable-logging=stderr --enable-webgl --ignore-gpu-blacklist",
+  "js-flags": "--expose-gc",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ebhooks21@github.com/ebhooks21/fileknight.git"
+  },
+  "author": "Eric Hooks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ebhooks21/fileknight/issues"
+  },
+  "homepage": "https://github.com/ebhooks21/fileknight#readme"
+}
