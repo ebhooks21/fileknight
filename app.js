@@ -1,7 +1,7 @@
 /**
 * App.js
 */
-//var MauricesGreatAdventure = require('./lib/MauricesGreatAdventure/MauricesGreatAdventure.js');
+var FileKnight = require("./lib/FileKnight/FileKnight.js");
 
 /**
 * Function to initialize the game.
@@ -17,11 +17,8 @@ function init()
 		win.title = "File Knight";
 		win.moveTo(10, 10);
 
-		//Create the MauricesGreatAdventure object
-		//var mga = new MauricesGreatAdventure(win);
-
-		//Initialize MauricesGreatAdventure game
-		//mga.init();
+		//Create a new FileKnight object
+		let fk = new FileKnight(win);
 	});
 }
 

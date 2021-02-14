@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/ebhooks21/fileknight/issues"
   },
-  "homepage": "https://github.com/ebhooks21/fileknight#readme"
+  "homepage": "https://github.com/ebhooks21/fileknight#readme",
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
 }
