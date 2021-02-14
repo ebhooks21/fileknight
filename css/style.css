@@ -1,7 +1,46 @@
 body
 {
 	display: block;
+	margin: 0 auto;
 	overflow: hidden;
 	padding: 0 0;
 	width: 100%;
+}
+
+.clearfix
+{
+	clear: both;
+}
+
+div.mainview
+{
+	display: block;
+	margin: 0 auto;
+	height: 200px;
+	padding: 0 0;
+	width: 99%;
+}
+
+div.mainview div.leftpane
+{
+	display: block;
+	border-top: 1px solid #000;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-radius-right: 12px;
+	float: left;
+	height: 100%;
+	width: 49%;
+}
+
+div.mainview div.rightpane
+{
+	display: block;
+	border-top: 1px solid #000;
+	border-left: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-radius-right: 12px;
+	float: right;
+	height: 100%;
+	width: 50%;
 }

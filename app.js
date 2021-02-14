@@ -19,6 +19,7 @@ function init()
 
 		//Create a new FileKnight object
 		let fk = new FileKnight(win);
+		fk.init();
 	});
 }
 
